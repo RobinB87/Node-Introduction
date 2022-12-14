@@ -1,4 +1,4 @@
-// module management when using common JS module
+// named import to not import whole http object, but only what the script uses
 const { createServer } = require("http");
 
 // run with: node 1-hello-world.js
