@@ -1,7 +1,6 @@
-// module management when using common JS module
-const http = require("http");
+// when using ecma script module management (.mjs)
+import http from "http";
 
-// run with: node 1-hello-world.js
 const server = http.createServer((req, res) => {
   res.end("Hello World\n");
 });
